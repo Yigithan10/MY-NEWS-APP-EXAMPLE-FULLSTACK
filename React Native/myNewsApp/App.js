@@ -2,7 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NativeBaseProvider } from 'native-base';
-import { Provider } from 'react-redux';
+import { Provider } from 'react-redux'; 
 import { configureStore } from '@reduxjs/toolkit';
 import reducers from './src/redux';
 import Splash from './src/screens/Splash';
